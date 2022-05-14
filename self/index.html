@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendation Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Yanone+Kaffeesatz:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="bg" src="bg.jpg" alt="Graphic Era University">
+    <div class="container">
+        <h1>Graphic Era University Recommendation Form</h1>
+        <hr>
+        <p>Enter all the fields and provide us your Feedback.</p>
+        <hr>
+        <form action="index.html" method="post">
+            <label for="name">Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#160;&#160;</label>
+            <input class="one" type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br>
+            <label for="section">Section: &nbsp;&nbsp;&#160;&#160;&#160;</label>
+            <input class="one" type="text" id="section" name="section" placeholder="Enter your section" required>
+            <br>
+            <label for="semester">Semester: &#160;</label>
+            <input class="one" type="text" id="semester" name="semester" placeholder="Enter your semester" required>
+            <br>
+            <label for="branch">Branch: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </label>
+            <input class="one" type="text" id="branch" name="branch" placeholder="Branch e.g., CSE" required>
+            <br>
+            <label for="campus">Campus: &#160;&nbsp;&nbsp;</label>
+            <input class="one" type="text" id="campus" name="campus" placeholder="e.g., Dehradun" required>
+            <br>
+            <label for="recommendation">Recommendation: </label><br>
+            &#160;&#160;&#160;&#160;&#160;
+            &#160;&#160;&#160;&#160;&#160;
+            <textarea class="one" name="recommendation" id="recommendation" cols="30" rows="5" placeholder="Enter your recommendation here" required></textarea>
+            <br>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
